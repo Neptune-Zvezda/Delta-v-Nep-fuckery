@@ -232,3 +232,17 @@
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
+
+
+- type: entity
+  parent:  ClothingUniformClothingUniformBase
+  id: ClothingUniformSpaceNewsReporter
+  name: Space news reporter Uniform
+  description: A Orange jumpskirt with a open waist and white trim
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Uniforms/Jumpsuit/ClothingUniformSpaceNewsReporter.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Uniforms/Jumpsuit/ClothingUniformSpaceNewsReporter.rsi
+
+
