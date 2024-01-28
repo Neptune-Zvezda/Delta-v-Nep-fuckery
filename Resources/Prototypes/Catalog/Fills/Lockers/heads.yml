@@ -25,8 +25,8 @@
       - id: SpaceCashLuckyBill # DeltaV - LO steal objective, see Resources/Prototypes/DeltaV/Entities/Objects/Misc/first_bill.yml
       - id: BoxPDACargo # Delta-V
       - id: QuartermasterIDCard # Delta-V
+      - id: ClothingUnderSocksStripedCargoQm
       - id: ClothingShoesBootsWinterLogisticsOfficer #Delta V: Add departmental winter boots
-
 - type: entity
   id: LockerCaptainFilledHardsuit
   suffix: Filled, Hardsuit
@@ -65,6 +65,15 @@
       - id: ClothingShoesLeather # DeltaV - add fancy shoes for HoP and cap
       - id: ClothingShoesMiscWhite # DeltaV - add fancy shoes for HoP and cap
       - id: ClothingShoesBootsWinterCap #Delta V: Add departmental winter boots
+      - id: ClothingUnderSocksStripedCaptainBlueandGold 
+      prob: 0.3
+      orGroup: socks 
+      - id: ClothingUnderSocksStripedCaptainBlueandWhite 
+      prob: 0.3
+      orGroup: socks 
+      - id: ClothingUnderSocksStripedCaptainBlueandWhite 
+      prob: 0.3
+      orGroup: socks 
 
 - type: entity
   id: LockerCaptainFilled
@@ -102,6 +111,15 @@
       - id: ClothingShoesLeather # DeltaV - add fancy shoes for HoP and cap
       - id: ClothingShoesMiscWhite # DeltaV - add fancy shoes for HoP and cap
       - id: ClothingShoesBootsWinterCap #Delta V: Add departmental winter boots
+      - id: ClothingUnderSocksStripedCaptainBlueandGold 
+      prob: 0.3
+      orGroup: socks 
+      - id: ClothingUnderSocksStripedCaptainBlueandWhite 
+      prob: 0.3
+      orGroup: socks 
+      - id: ClothingUnderSocksStripedCaptainBlueandWhite 
+      prob: 0.3
+      orGroup: socks 
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -143,6 +161,7 @@
       - id: ClothingShoesBootsLaceup # DeltaV - add fancy shoes for HoP and cap
       - id: ClothingShoesMiscWhite # DeltaV - add fancy shoes for HoP and cap
       - id: ClothingShoesBootsWinterHeadOfPersonel #Delta V: Add departmental winter boots
+      - id: ClothingUnderSocksStripedCaptainBlueandWhite # DeltaV - Neptune's striped socks
 
 - type: entity
   id: LockerChiefEngineerFilledHardsuit
@@ -174,6 +193,7 @@
       - id: BoxPDAEngineering # Delta-V
       - id: CEIDCard # Delta-V
       - id: ClothingShoesBootsWinterChiefEngineer #Delta V: Add departmental winter boots
+      - id: ClothingUnderSocksStripedEngineering # DeltaV - Neptune's striped socks
       - id: RCD
       - id: RCDAmmo
 
@@ -201,6 +221,7 @@
       - id: BoxPDAEngineering # Delta-V
       - id: CEIDCard # Delta-V
       - id: ClothingShoesBootsWinterChiefEngineer #Delta V: Add departmental winter boots
+      - id: ClothingUnderSocksStripedEngineering # DeltaV - Neptune's striped socks
       - id: RCD
       - id: RCDAmmo
 
@@ -231,6 +252,7 @@
       - id: ClothingBeltMilitaryWebbingCMO # DeltaV - add webbing for CMO. ON THIS STATION, IT'S DRIP OR [die], CAPTAIN!
       - id: CMOIDCard # Delta-V
       - id: ClothingShoesBootsWinterChiefMedicalOfficer #Delta V: Add departmental winter boots
+      - id: ClothingUnderSocksStripedWhiteandLightBlueBunnySlipper # DeltaV - Neptune's striped socks
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -258,6 +280,7 @@
       - id: ClothingBeltMilitaryWebbingCMO # DeltaV - add webbing for CMO. ON THIS STATION, IT'S DRIP OR [die], CAPTAIN!
       - id: CMOIDCard # Delta-V
       - id: ClothingShoesBootsWinterChiefMedicalOfficer #Delta V: Add departmental winter boots
+      - id: ClothingUnderSocksStripedWhiteandLightBlueBunnySlipper # DeltaV - Neptune's striped socks
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
@@ -283,7 +306,7 @@
       - id: BoxPDAScience # Delta-V
       - id: RDIDCard # Delta-V
       - id: ClothingShoesBootsWinterMystagogue #Delta V: Add departmental winter boots
-
+            #Mysta Socks in progress
 - type: entity
   id: LockerResearchDirectorFilled
   suffix: Filled
@@ -307,7 +330,7 @@
       - id: BoxPDAScience # Delta-V
       - id: RDIDCard # Delta-V
       - id: ClothingShoesBootsWinterMystagogue #Delta V: Add departmental winter boots
-
+           #Mysta Socks in progress
 - type: entity
   id: LockerHeadOfSecurityFilledHardsuit
   suffix: Filled, Hardsuit
@@ -344,6 +367,7 @@
       - id: WeaponEnergyGunMultiphase # DeltaV - HoS Energy Gun
       - id: HoSIDCard # Delta-V
       - id: ClothingShoesBootsWinterHeadOfSecurity #Delta V: Add departmental winter boots
+      - id: ClothingUnderSocksStripedSecurityJackboots # DeltaV - Neptune's striped socks
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -378,6 +402,7 @@
       - id: WeaponEnergyGunMultiphase # DeltaV - HoS Energy Gun
       - id: HoSIDCard # Delta-V
       - id: ClothingShoesBootsWinterHeadOfSecurity #Delta V: Add departmental winter boots
+      - id: ClothingUnderSocksStripedSecurityJackboots # DeltaV - Neptune's striped socks
 
 - type: entity
   id: LockerFreezerVaultFilled
