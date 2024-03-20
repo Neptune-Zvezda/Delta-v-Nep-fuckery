@@ -48,7 +48,7 @@
       - id: ClothingHeadsetAltCommand
       - id: SpaceCash1000
       - id: PlushieNuke
-        prob: 0.1
+         prob: 0.1
       - id: CigarGoldCase
         prob: 0.25
       - id: ClothingBeltSheathFilled
@@ -66,14 +66,7 @@
       - id: ClothingShoesMiscWhite # DeltaV - add fancy shoes for HoP and cap
       - id: ClothingShoesBootsWinterCap #Delta V: Add departmental winter boots
       - id: ClothingUnderSocksStripedCaptainBlueandGold 
-      prob: 0.3
-      orGroup: socks 
-      - id: ClothingUnderSocksStripedCaptainBlueandWhite 
-      prob: 0.3
-      orGroup: socks 
-      - id: ClothingUnderSocksStripedCaptainBlueandWhite 
-      prob: 0.3
-      orGroup: socks 
+
 
 - type: entity
   id: LockerCaptainFilled
