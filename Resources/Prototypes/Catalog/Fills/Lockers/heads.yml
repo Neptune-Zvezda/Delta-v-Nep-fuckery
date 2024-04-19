@@ -48,9 +48,7 @@
       - id: ClothingHeadsetAltCommand
       - id: SpaceCash1000
       - id: PlushieNuke
-         prob: 0.1
       - id: CigarGoldCase
-        prob: 0.25
       - id: ClothingBeltSheathFilled
       - id: DoorRemoteCommand
       - id: ClothingNeckCloakCapFormal
@@ -87,9 +85,7 @@
       - id: ClothingHeadsetAltCommand
       - id: SpaceCash1000
       - id: PlushieNuke
-        prob: 0.1
       - id: CigarGoldCase
-        prob: 0.25
       - id: ClothingBeltSheathFilled
       - id: DoorRemoteCommand
       - id: ClothingNeckCloakCapFormal
@@ -105,14 +101,6 @@
       - id: ClothingShoesMiscWhite # DeltaV - add fancy shoes for HoP and cap
       - id: ClothingShoesBootsWinterCap #Delta V: Add departmental winter boots
       - id: ClothingUnderSocksStripedCaptainBlueandGold 
-      prob: 0.3
-      orGroup: socks 
-      - id: ClothingUnderSocksStripedCaptainBlueandWhite 
-      prob: 0.3
-      orGroup: socks 
-      - id: ClothingUnderSocksStripedCaptainBlueandWhite 
-      prob: 0.3
-      orGroup: socks 
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -135,7 +123,6 @@
       - id: ClothingOuterArmorDuraVest # DeltaV - replaced HoP's armoured coat with a standard stabproof, pending HoPcoat resprite
       - id: ClothingOuterCoatHoPFormal # DeltaV - formal jacket
       - id: CigarGoldCase
-        prob: 0.25
         # Fuck the HoP they don't deserve fucking cigars.
         # Yes they do fuck you.
       - id: DoorRemoteService
@@ -144,7 +131,6 @@
       - id: BoxEncryptionKeyPassenger
       - id: BoxEncryptionKeyService
       - id: ClothingBackpackIan
-        prob: 0.5
       - id: AccessConfigurator
       - id: BookIanDossier # DeltaV - HoP steal objective, see Resources/Prototypes/DeltaV/Entities/Objects/Misc/ian_dossier.yml
       - id: ClothingHandsGlovesInspection # DeltaV - Add inspection gloves for HoP.
@@ -176,7 +162,6 @@
       - id: ClothingShoesBootsMagAdv
       - id: ClothingHandsGlovesColorYellow
       - id: CigarCase
-        prob: 0.15
       - id: DoorRemoteEngineering
       - id: RubberStampCE
       - id: JetpackVoidFilled
@@ -205,7 +190,6 @@
       - id: ClothingUniformJumpsuitChiefEngineerTurtle
       - id: ClothingUniformJumpskirtChiefEngineerTurtle
       - id: CigarCase
-        prob: 0.15
       - id: DoorRemoteEngineering
       - id: RubberStampCE
       - id: ClothingHeadsetAltEngineering
@@ -346,7 +330,6 @@
       - id: ClothingEyesGlassesSunglasses
       - id: ClothingShoesBootsJack
       - id: CigarGoldCase
-        prob: 0.50
       - id: DoorRemoteSecurity
       - id: ClothingUniformJumpskirtHosFormal
       - id: ClothingUniformJumpsuitHosFormal
@@ -382,7 +365,6 @@
       - id: ClothingEyesGlassesSunglasses
       - id: ClothingShoesBootsJack
       - id: CigarGoldCase
-        prob: 0.50
       - id: DoorRemoteSecurity
       - id: ClothingUniformJumpskirtHosFormal
       - id: ClothingUniformJumpsuitHosFormal
